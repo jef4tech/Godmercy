@@ -32,7 +32,7 @@ android {
         dev {
           dimension  'minimal'
           aaptOptions.cruncherEnabled = false
-          resConfigs "en", "xxhdpi"
+          resConfigs "en", "hdpi"
         }
         prd {
         }
