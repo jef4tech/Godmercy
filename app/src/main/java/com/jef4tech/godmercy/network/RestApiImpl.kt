@@ -2,7 +2,6 @@ package com.jef4tech.godmercy.network
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import com.jef4tech.godmercy.model.Prayer
 import com.jef4tech.godmercy.model.PrayerSet
 import retrofit2.Call
 import retrofit2.Callback
@@ -29,7 +28,7 @@ object RestApiImpl {
                 Log.v("DEBUG : ", response.body().toString())
 
                 val data = response.body()
-                Log.i("yuppy", "onResponse: "+data)
+                Log.i("yuppy", "onResponse: $data")
 //
 //                val msg = data?.sessions
 //                serviceSetterGetter.value = msg?.let { Vaccine(it) }

@@ -5,7 +5,9 @@
       <map>
         <entry key="app/src/main/res/layout/baseadapter.xml" value="0.18659420289855072" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/fragment_prayer.xml" value="0.19157608695652173" />
         <entry key="app/src/main/res/layout/prayeradapter.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/testlayout.xml" value="0.19157608695652173" />
       </map>
     </option>
   </component>
